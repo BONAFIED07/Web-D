@@ -4,7 +4,7 @@ We will do some projects already available on the internet or the YOUTUBE.
 Kindly after That may be we will able to Finish Gifts.Co
 
 // END
-// Journey to a Full Stack Developer
+// Starting of Journey to a Full Stack Developer
 
 We may learn using WEBx or Web studio and FIGMA to enhance the looking of the UI.
 Then we will focus on JS software stack (MERN) .
