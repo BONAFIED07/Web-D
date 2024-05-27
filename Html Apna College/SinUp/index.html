@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header><u>Sign Up</u></header> <br>
+    <main>
+        <form action="/action.php" method="POST">
+            <b>Write Your Username: </b>
+            <input type="text" name="username" placeholder="Username" required> <br/><br>
+            
+            <b>Create a Password: </b>
+            <input type="password" name="password" placeholder="Passkey" required> <br/><br>
+            
+            <b>Choose Your Class: </b>
+            <label for="XI">
+                <input type="radio" value="XI" name="class" id="XI" required>Class XI
+            </label>
+            <label for="XII">
+                <input type="radio" value="XII" name="class" id="XII">Class XII
+            </label><br><br>
+            
+            <b>Choose Subjects You Want to Opt: </b>
+            <label for="Math">
+                <input type="checkbox" value="maths" name="subjects" id="101">Maths
+            </label>
+            <label for="Physics">
+                <input type="checkbox" value="physics" name="subjects" id="102">Physics
+            </label>
+            <label for="Chemistry">
+                <input type="checkbox" value="chemistry" name="subjects" id="103">Chemistry
+            </label>
+            <label for="Biology">
+                <input type="checkbox" value="biology" name="subjects" id="104">Biology
+            </label>
+            <br><br>
+            
+            <textarea name="feedback" id="100" placeholder="Feedback" rows="5"></textarea><br><br>
+            
+            <b>Choose Your City: </b>
+            <select name="city" required>
+                <option value="Delhi">Delhi</option>
+                <option value="Patna">Patna</option>
+                <option value="Gaya">Gaya</option>
+                <option value="Belaganj">Belaganj</option>
+            </select><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
